@@ -1,8 +1,5 @@
 package com.oca.studyguide.chapter1;
 
-/**
- * Created by davidmartins on 12/23/15.
- */
 public class PrimitiveTypes {
 
     /*
@@ -17,7 +14,7 @@ public class PrimitiveTypes {
      * * double
      */
 
-    private long max = 3123456789; // Does not compile: integer number too large. Although its marked as long...
+    //private long max = 3123456789; // Does not compile: integer number too large. Although its marked as long...
     // By default, Java assumes you're defining an int as a literal!!
 
     private long newMax = 3123456789L; // This one works but it needs an L at the end...
