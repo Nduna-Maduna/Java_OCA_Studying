@@ -4,7 +4,7 @@ public class UnaryOperators {
 
     public static void main(String[] args) {
 
-        // Apparently pre-unary and post-unary operators have the same precedence level
+        // Apparently pre-unary and post-unary operators have the same precedence level (which is the highest)
 
         int x = 3;
         int y = ++x * 5 / x-- + --x;
