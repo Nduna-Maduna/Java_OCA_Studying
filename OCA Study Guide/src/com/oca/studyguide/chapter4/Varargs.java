@@ -17,8 +17,6 @@ public class Varargs {
      * 2. Only one vararg parameter per method is allowed.
      */
     public static void walk(int start, int... numbers) {
-
         System.out.println(numbers.length);
-
     }
 }
