@@ -9,6 +9,8 @@ public class DataAmongMethods {
         speak1(name);
 
         System.out.println(name);
+
+        StaticImports imports = null;
     }
 
     public static void speak1(String name) {
